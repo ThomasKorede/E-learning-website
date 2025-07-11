@@ -2,19 +2,19 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <div className='bg-blue-400 pt-10 pl-10'>
-      <div className=''>
-        <h1 className='font-bold text-2xlxl text-xl '><span className='text-yellow-400'> Studying</span> online is now <br/>much easier </h1>
-        <p className='font-medium mt-5'>stydying is now made easy with chat gpt and ai </p>
-        <div className='flex pt-7'>
-          <button class="bg-transparent hover:bg-blue-700 hover:font-bold text-white font-bold py-2 px-4 rounded-full border-2"> Join Us </button>
-          <button class="bg-transparent hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full border-2 ">Button </button>
-        </div>
-        <div className='flex justify-center'>
-          <img src="src/assets/logo.png" alt="" />
+    <div className='bg-blue-400 flex justify-center'>
+      <div className='pt-20 pb-20'>
+        <h1 className='text-2xl text-white'> <span className='text-yellow-400'>Studying </span>online is now <br />much easier</h1>
+        <p className='text-light text-white mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Quasi sapiente rerum corrupti.</p>
+        <div className='mt-5'>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full "> Button </button>
+          <button className='bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full ml-5'>Button</button>
         </div>
       </div>
-    </div>
+      <div className='mt-10 px-30'>
+        <img src="/src/assets/lady-waving.jpg" alt="" />
+      </div>
+      </div>
   )
 }
 
